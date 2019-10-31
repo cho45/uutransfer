@@ -1,6 +1,8 @@
 uutransfer
 ==========
 
+<img src="./docs/demo.gif"/>
+
 uutransfer can transfer files using an existing screen / tmux session.
 
  * [./uutransfer-tmux] for tmux
