@@ -11,7 +11,12 @@ uutransfer can transfer files using an existing screen / tmux session.
 Requirements: ruby 2.6
 
 ```
-curl TBD -o /path/to/bin/uutransfer
+# for tmux
+curl https://raw.githubusercontent.com/cho45/uutransfer/master/uutransfer-screen -o /path/to/bin/uutransfer
+# for screen
+curl https://raw.githubusercontent.com/cho45/uutransfer/master/uutransfer-tmux -o /path/to/bin/uutransfer
+
+chmod +x /path/to/uutransfer
 ```
 
 ### Usage
